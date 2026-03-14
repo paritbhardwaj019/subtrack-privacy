@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>SubTrack – Privacy Policy</title>
+  <style>
+    body { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif; max-width: 720px; margin: 60px auto; padding: 0 24px; color: #222; line-height: 1.7; }
+    h1 { font-size: 28px; margin-bottom: 4px; }
+    h2 { font-size: 18px; margin-top: 36px; }
+    .date { color: #666; font-size: 14px; margin-bottom: 36px; }
+    a { color: #0066cc; }
+  </style>
+</head>
+<body>
+  <h1>SubTrack – Privacy Policy</h1>
+  <p class="date">Last updated: March 14, 2026</p>
+
+  <p>SubTrack is a Chrome extension that helps users track their YouTube subscription history. This privacy policy explains what data we collect, how we use it, and your rights.</p>
+
+  <h2>Data We Collect</h2>
+  <p>SubTrack only collects the following data when you click the Subscribe button on YouTube:</p>
+  <ul>
+    <li>YouTube channel name</li>
+    <li>YouTube channel URL</li>
+    <li>Date and time of subscription</li>
+  </ul>
+
+  <h2>How We Store Your Data</h2>
+  <p>All data is stored exclusively on your local device using Chrome's built-in <code>chrome.storage.local</code> API. Your subscription history never leaves your browser. SubTrack has no servers, no database, and no backend infrastructure.</p>
+
+  <h2>Data We Do NOT Collect</h2>
+  <ul>
+    <li>We do not collect your name, email address, or any personally identifiable information</li>
+    <li>We do not track your browsing history</li>
+    <li>We do not collect analytics or usage data</li>
+    <li>We do not use cookies</li>
+    <li>We do not share any data with third parties</li>
+  </ul>
+
+  <h2>Google OAuth and YouTube API</h2>
+  <p>If you choose to use the unsubscribe feature, SubTrack requests permission to access your YouTube account via Google OAuth. This permission is used solely to call the YouTube Data API to remove a subscription on your behalf. No data from your Google account is stored, transmitted, or shared. You can revoke this permission at any time via your <a href="https://myaccount.google.com/permissions">Google Account settings</a>.</p>
+
+  <h2>Permissions Explained</h2>
+  <ul>
+    <li><strong>storage</strong> — stores your subscription history locally on your device</li>
+    <li><strong>identity</strong> — used only for Google OAuth to enable the unsubscribe feature</li>
+    <li><strong>youtube.com</strong> — required to detect subscribe button clicks on YouTube pages</li>
+    <li><strong>googleapis.com</strong> — required to call the YouTube Data API for unsubscribing</li>
+  </ul>
+
+  <h2>Data Deletion</h2>
+  <p>You can delete all locally stored data at any time by clicking the "Clear All" button in the extension popup, or by uninstalling the extension. Uninstalling automatically removes all stored data.</p>
+
+  <h2>Children's Privacy</h2>
+  <p>SubTrack does not knowingly collect any data from children under the age of 13.</p>
+
+  <h2>Changes to This Policy</h2>
+  <p>We may update this privacy policy from time to time. Any changes will be reflected on this page with an updated date.</p>
+
+  <h2>Contact</h2>
+  <p>If you have any questions about this privacy policy, please open an issue on our <a href="https://github.com/paritbhardwaj019/subtrack">GitHub repository</a>.</p>
+</body>
+</html>
